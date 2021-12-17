@@ -18,7 +18,6 @@ int sortByAge(const void* a, const void* b)
 
 int main(int argc, char* argv[])
 {
-	setlocale(LC_ALL, "Turkish");
 	int numberOfPeople = 0;
 
 	while (numberOfPeople <= 0)
